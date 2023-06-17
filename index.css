@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    color:darkgreen;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+input {
+    background-color:beige;
+    border-radius: 10%;
+    border-width: 2px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: green;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+ul {
+	list-style-position: inside;
+	width: 600px;
+	max-width: 100%;
+	background: white;
+	padding: 0;
+	margin: 0;
+	border-radius: 0.1rem;
+    font-family: 'Gloria Hallelujah', cursive;
+	font-size: 1rem;
+	background: whitesmoke;
+}
+
+li {
+	padding: 0 0 0 1rem;
+    color: black;
+}
+
+li:not(:last-child) {
+	border-bottom: 1px solid rgb(3, 59, 15);
+    padding-bottom: 3px;
+}
+
+li:first-child {
+	margin-top: 1rem;
+}
+
+li:last-child {
+	margin-bottom: 1rem;
+}
+
+.del {
+    background-color: brown;
+    height: 20px;
+    padding-bottom: 10px;
+}
